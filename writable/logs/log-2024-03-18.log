@@ -1,0 +1,258 @@
+CRITICAL - 2024-03-18 14:08:23 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 14:08:25 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 14:08:27 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 14:22:05 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 14:22:06 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 14:43:46 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 14:44:03 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 14:44:13 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 14:44:15 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 14:58:40 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:11:08 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:11:08 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:11:09 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:11:09 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:11:09 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:11:09 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:11:09 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:11:09 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:11:10 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:12:57 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:12:57 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:12:58 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:12:58 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:12:58 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 15:12:58 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:07:18 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:07:18 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:07:18 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:07:19 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:07:19 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:07:22 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:07:23 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:07:23 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:07:23 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:07:23 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:07:23 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:07:24 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:50:44 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:50:44 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:50:44 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:50:44 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:50:44 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 9.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-18 16:50:57 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\ClienteController.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\clienteController->guardar()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\clienteController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -8,6 +8,6 @@
     <link rel="shortcut icon" type="image/png" href="/favicon.ico">        
 </head>
 <body>
-
+    <h1>Soy la vista del mensaje de binenvenida</h1>
 </body>
 </html>
