@@ -22,6 +22,12 @@ class DispositivoModel extends Model
         'cliente_id'
     ];
 
+    public function obtenerDispositivosConCliente()
+    {
+
+        return $this->join('clientes', 'clientes.id = dispositivos.cliente_id')->select('dispositivos.*,CONCAT(clientes.nombres, " ", clientes.apellidos) as nombreCompleto')->paginate(10);
+    }
+
     protected bool $allowEmptyInserts = false;
 
     // Dates

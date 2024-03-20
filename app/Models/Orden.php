@@ -4,9 +4,9 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Dispositivos extends Model
+class Orden extends Model
 {
-    protected $table            = 'dispositivos';
+    protected $table            = 'ordens';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
