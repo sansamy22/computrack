@@ -1,0 +1,105 @@
+CRITICAL - 2024-03-20 01:24:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cliente/listado.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente/listado.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/listado', [], true)
+ 3 APPPATH\Controllers\ClienteController.php(12): view('cliente/listado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ClienteController->listado()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 01:24:21 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "cliente/listado.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('cliente/listado.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('cliente/listado', [], true)
+ 3 APPPATH\Controllers\ClienteController.php(12): view('cliente/listado', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\ClienteController->listado()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ClienteController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 13:41:29 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Config\Routes.php on line 30.
+ 1 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-03-20 13:45:13 --> ParseError: syntax error, unexpected end of file
+in APPPATH\Config\Routes.php on line 30.
+ 1 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 2 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-03-20 13:47:37 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\xampp\htdocs\computrack\app\Config\Routes.php on line 12 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 1018.
+ 1 APPPATH\Config\Routes.php(12): CodeIgniter\Router\RouteCollection->get('ClienteController::listado')
+ 2 SYSTEMPATH\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection::{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(28): CodeIgniter\Router\RouteCollection->group('clientes', Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(345): require('C:\\xampp\\htdocs\\computrack\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-03-20 13:48:33 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\xampp\htdocs\computrack\app\Config\Routes.php on line 12 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 1018.
+ 1 APPPATH\Config\Routes.php(12): CodeIgniter\Router\RouteCollection->get('ClienteController::listado')
+ 2 SYSTEMPATH\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection::{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(28): CodeIgniter\Router\RouteCollection->group('clientes', Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(345): require('C:\\xampp\\htdocs\\computrack\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-03-20 13:55:54 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\xampp\htdocs\computrack\app\Config\Routes.php on line 12 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 1018.
+ 1 APPPATH\Config\Routes.php(12): CodeIgniter\Router\RouteCollection->get('ClienteController::listado')
+ 2 SYSTEMPATH\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection::{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(28): CodeIgniter\Router\RouteCollection->group('clientes', Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(345): require('C:\\xampp\\htdocs\\computrack\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-03-20 13:59:47 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\xampp\htdocs\computrack\app\Config\Routes.php on line 12 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 1018.
+ 1 APPPATH\Config\Routes.php(12): CodeIgniter\Router\RouteCollection->get('ClienteController::listado')
+ 2 SYSTEMPATH\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection::{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(27): CodeIgniter\Router\RouteCollection->group('clientes', Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(345): require('C:\\xampp\\htdocs\\computrack\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CLI\Console.php(39): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 ROOTPATH\spark(102): CodeIgniter\CLI\Console->run()
+CRITICAL - 2024-03-20 14:23:51 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\xampp\htdocs\computrack\app\Config\Routes.php on line 12 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 1018.
+ 1 APPPATH\Config\Routes.php(12): CodeIgniter\Router\RouteCollection->get('ClienteController::listado')
+ 2 SYSTEMPATH\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection::{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(27): CodeIgniter\Router\RouteCollection->group('clientes', Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(345): require('C:\\xampp\\htdocs\\computrack\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 14:28:23 --> ArgumentCountError: Too few arguments to function CodeIgniter\Router\RouteCollection::get(), 1 passed in C:\xampp\htdocs\computrack\app\Config\Routes.php on line 11 and at least 2 expected
+in SYSTEMPATH\Router\RouteCollection.php on line 1018.
+ 1 APPPATH\Config\Routes.php(11): CodeIgniter\Router\RouteCollection->get('ClienteController::listado')
+ 2 SYSTEMPATH\Router\RouteCollection.php(779): CodeIgniter\Router\RouteCollection::{closure}(Object(CodeIgniter\Router\RouteCollection))
+ 3 APPPATH\Config\Routes.php(18): CodeIgniter\Router\RouteCollection->group('clientes', Object(Closure))
+ 4 SYSTEMPATH\Router\RouteCollection.php(345): require('C:\\xampp\\htdocs\\computrack\\app\\Config\\Routes.php')
+ 5 SYSTEMPATH\CodeIgniter.php(810): CodeIgniter\Router\RouteCollection->loadRoutes()
+ 6 SYSTEMPATH\CodeIgniter.php(450): CodeIgniter\CodeIgniter->tryToRouteIt(null)
+ 7 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 14:37:15 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dispositivos/crear.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dispositivos/crear.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dispositivos/crear', [], true)
+ 3 APPPATH\Controllers\DispositivoController.php(16): view('dispositivos/crear')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DispositivoController->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DispositivoController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 14:47:35 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dispositivos/crear.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dispositivos/crear.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dispositivos/crear', [], true)
+ 3 APPPATH\Controllers\DispositivoController.php(17): view('dispositivos/crear')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DispositivoController->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DispositivoController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-03-20 14:47:36 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "dispositivos/crear.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dispositivos/crear.php')
+ 2 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('dispositivos/crear', [], true)
+ 3 APPPATH\Controllers\DispositivoController.php(17): view('dispositivos/crear')
+ 4 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DispositivoController->crear()
+ 5 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DispositivoController))
+ 6 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()

@@ -5,12 +5,18 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
-$routes->get('/', 'Home::index'); 
+$routes->get('/', 'Home::index');
 
-$routes->get('/clientes', 'clienteController::listado'); 
+$routes->group('clientes', static function ($routes) {
+    $routes->get('/','ClienteController::listado');
+    $routes->delete('delete/(:num)', 'ClienteController::delete/$1'); //borrar los clientes   
+    $routes->get('nuevo', 'ClienteController::crear'); // crear un nuevo cliente
+    $routes->post('guardar', 'ClienteController::guardar');
+    $routes->get('editar/(:num)', 'ClienteController::editar/$1');  //editar a un cliente
+    $routes->post('actualizar/(:num)', 'ClienteController::actualizar/$1');
+    $routes->get('buscar', 'ClienteController::buscar');
+});
 
-$routes->post('cliente/delete/(:num)', 'ClienteController::delete/$1'); 
-
-$routes->get('/clientes/nuevo', 'clienteController::crear'); 
-
-$routes->post('clientes/guardar', 'ClienteController::guardar');
+$routes->group('dispositivos', static function($routes) {
+    $routes->get('nuevo', 'DispositivoController::crear' );
+});
