@@ -23,6 +23,9 @@
                         <span class="badge rounded-pill text-bg-primary">
                             <?= $orden['fechaIngreso'] ?>
                         </span>
+                        <select name="" id="" class="form-select">
+                            
+                        </select>
                     </div>
                 </div>
             <?php endforeach; ?>

@@ -42,7 +42,7 @@ class DispositivoController extends BaseController
         $cliente = $clienteModel->where('cedula', $cedula)->first();
 
         if ($cliente) {
-            $nombreCompleto = $cliente['nombres' . ' ' . $cliente['apellidos']];
+            $nombreCompleto = $cliente['nombres'] . ' ' . $cliente['apellidos'];
             $clienteId = $cliente['id'];
         } else {
             $nombreCompleto = '';
