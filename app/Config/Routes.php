@@ -18,13 +18,17 @@ $routes->group('clientes', static function ($routes) {
 });
 
 $routes->group('dispositivos', static function($routes) {
-
+    $routes->get('/', 'DispositivoController::listado');
     $routes->get('nuevo', 'DispositivoController::crear');
     $routes->get('obtenerClientes', 'DispositivoController::obtenerClientes');
     $routes->get('obtenerNombreClientePorCedula', 'DispositivoController::obtenerNombreClientePorCedula');
     $routes->post('guardar', 'DispositivoController::registrarDispositivo');
+    $routes->get('borrar/(:num)', 'DispositivoController::borrar/$1'); //borrar dispositivo por id
 });
 
-$routes->group('Ordenes', static function($routes) {
+$routes->group('ordenes', static function($routes) {
     $routes->get('/','OrdenController::listado');
+    $routes->get('nueva', 'OredenesController::crear');
+    $routes->post('buscarDispositivos', 'OrdenController::buscarDispositivos');
+    $routes->post('guardarOrden', 'OrdenController::guardarOrden');
 });

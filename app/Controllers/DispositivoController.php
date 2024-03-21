@@ -23,8 +23,7 @@ class DispositivoController extends BaseController
         return view ('dispositivos/listado', $data);
     }
 
-    public function crear()
-    {
+    public function crear() {
         return view('dispositivos/crear');
     }
 
@@ -79,6 +78,14 @@ class DispositivoController extends BaseController
         $dispositivoModel->insert($data);
 
         // Redirigir a la página
-        return redirect()->to('dispositivos/nuevo');
+        return redirect()->to('dispositivos'); // cambio aqui se quito "/nuevo"
+    }
+
+    public function borrar($id = null)
+    {
+        $dispositivoModel = new DispositivoModel();
+        $dispositivoModel ->delete($id);
+
+        return redirect()->to('/dispositivos');
     }
 }

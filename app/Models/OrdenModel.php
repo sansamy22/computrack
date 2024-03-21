@@ -4,15 +4,21 @@ namespace App\Models;
 
 use CodeIgniter\Model;
 
-class Orden extends Model
+class OrdenModel extends Model
 {
-    protected $table            = 'ordens';
+    protected $table            = 'ordenes';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = [];
+    protected $allowedFields    = [
+        'estado', 
+        'observaciones',
+        'fechadeIngreso', 
+        'fechadeSalida',
+        'dispositivo_id',
+    ];
 
     protected bool $allowEmptyInserts = false;
 
