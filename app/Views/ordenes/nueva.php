@@ -33,7 +33,7 @@
         </table>
     </div>
 
-    <form action="<?= site_url('ordenes/guardarOrden')?>" method="post" id="formularioOrden">
+    <form action="<?= site_url('ordenes/guardarOrden') ?>" method="post" id="formularioOrden">
         <div class="row">
             <div class="col-lg-6">
                 <div class="form-group">
@@ -54,12 +54,12 @@
         <!-- Enviar los datos y crear la orden -->
         <button type="submit" class="btn btn-warning mt-2">Registrar nueva orden al sistema</button>
     </form>
-</div> 
+</div>
 
 <script>
     $(document).ready(function () {
         $('table#tablaDispositivos tbody').on('click', 'button.btn-success', function () {
-            let idDispositivo = $(this).closest('tr').attr('data-id'); //revisar aqui ahora
+            let idDispositivo = $(this).closest('tr').attr('data-id');
             let tipoDispositivo = $(this).closest('tr').find('td:eq(0)').text();
             let serial = $(this).closest('tr').find('td:eq(4)').text();
 
@@ -85,21 +85,21 @@
                 success: function (response) {
                     if (response.success) {
                         // Mostrar el nombre del cliente
-                        $('nombreCliente').text(response.cliente.nombres + ' ' + response.cliente.apellidos);
+                        $('h3#nombreCliente').text(response.cliente.nombres + ' ' + response.cliente.apellidos);
 
                         // Limpiar la tabla de dispositivos
                         $('table#tablaDispositivos tbody').empty();
 
                         // Mostrar los dispositivos asociados al cliente en la tabla
-                        $.each(response.dispositivos, function (index, dispositivo) {                  //aqui se coloci un "+"
-                            $('table#tablaDispositivos tbody').append('<tr data-id="' + dispositivo.id  + '><td>' + dispositivo.tipoDispositivo + '</td><td>' + dispositivo.marca + '</td><td>' + dispositivo.modelo + '</td><td>' + dispositivo.color + '</td><td>' + dispositivo.serial + '</td>td><button class="btn btn-success">Seleccionar</button></td></tr>')
-                        })
-                    }else {
+                        $.each(response.dispositivos, function (index, dispositivo) {
+                            $('table#tablaDispositivos tbody').append('<tr data-id="' + dispositivo.id + '"><td>' + dispositivo.tipoDispositivo + '</td><td>' + dispositivo.marca + '</td><td>' + dispositivo.modelo + '</td><td>' + dispositivo.color + '</td><td>' + dispositivo.serial + '</td><td><button class="btn btn-success">Seleccionar</button></td></tr>');
+                        });
+                    } else {
                         // Si ocurrió un error, mostrar un mensaje de error
                         alert(response.message);
                     }
                 },
-                error: function() {
+                error: function () {
                     // Si ocurrió un error en la solicitud AJAX, mostrar un mensaje de error
                     alert('Error al buscar dispositivo');
                 }

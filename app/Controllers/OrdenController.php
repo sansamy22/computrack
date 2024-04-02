@@ -72,5 +72,30 @@ class OrdenController extends BaseController
 
         // Redirigir a la página de listado de ordenes
         return redirect()->to(site_url('ordenes'));
+    } 
+
+    public function actualizarEstado()
+    {
+        // Obtener los datos enviados por Ajax
+        $ordenId = $this->request->getPost('orden_id');
+        $nuevoEstado = $this->request->getPost('estado');
+
+        // Cargar el modelo de orden
+        $ordenModel = new OrdenModel();
+
+        // Verificar si el nuevo estado es "finalizado"
+        if ($nuevoEstado == 'finalizado') {
+            // Obtener la fecha y hora actual
+            $fechaSalida = date('Y-m-d H:i:s');
+
+            // Actualizar el estado de la orden y la fecha de salida en la base de datos
+            $ordenModel->update($ordenId, ['estado' => $nuevoEstado, 'fechaSalida' => $fechaSalida]);
+        } else {
+            // Si el nuevo estado no es "finalizado", actualizar solo el estado de la orden
+            $ordenModel->update($ordenId, ['estado' => $nuevoEstado]);
+        }
+
+        // Enviar una respuesta (puede ser útil para manejar la confirmación en el lado del cliente)
+        return $this->response->setJSON(['success' => true]);
     }
 }
