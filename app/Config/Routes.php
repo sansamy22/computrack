@@ -28,7 +28,7 @@ $routes->group('dispositivos', static function($routes) {
 
 $routes->group('ordenes', static function($routes) {
     $routes->get('/','OrdenController::listado');
-    $routes->get('nueva', 'OredenesController::crear');
+    $routes->get('nueva', 'OrdenController::crear');
     $routes->post('buscarDispositivos', 'OrdenController::buscarDispositivos');
     $routes->post('guardarOrden', 'OrdenController::guardarOrden');
     $routes->post('actualizar_estado', 'OrdenController::actualizarEstado');
@@ -37,4 +37,6 @@ $routes->group('ordenes', static function($routes) {
 $routes->group('facturas', static function ($routes) {
     $routes->addRedirect('/', 'facturas/crear');
     $routes->get('crear', 'FacturaController::crear');
+    $routes->get('cobrar/(:num)', 'FacturaController::cobrar/$1');
+    $routes->post('procesar_cobro', 'FacturaController::procesar_cobro');
 });

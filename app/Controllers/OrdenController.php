@@ -3,10 +3,12 @@
 namespace App\Controllers;
 
 use App\Controllers\BaseController;
-use app\Models\ClienteModel; //pendiente aqui
-use App\Models\DispositivoModel;
-use App\Models\OrdenModel;
 use CodeIgniter\HTTP\ResponseInterface;
+ 
+use App\Models\DispositivoModel;
+use app\Models\ClienteModel;
+use App\Models\OrdenModel;
+
 
 class OrdenController extends BaseController
 {
