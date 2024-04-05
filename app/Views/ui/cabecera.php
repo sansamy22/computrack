@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-warning">
+<nav class="navbar navbar-expand-lg navbar-blue bg-warning">
   <div class="container-fluid">
     <a class="navbar-brand" href="<?= base_url('/clientes')?>">
         <img class="img-fluid w-25" src="<?= base_url('/imagenes/Computrack.png')?>" alt="">

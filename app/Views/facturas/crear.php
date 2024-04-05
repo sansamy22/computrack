@@ -16,7 +16,7 @@
 			?>
 			<tr>
 				<td>
-					<?= $ordenFinalizada['fechaIngreso'] ?>
+					<?= $ordenFinalizada['fechaDeIngreso'] ?>
 				</td>
 				<td>
 					<?= $ordenFinalizada['observaciones'] ?>

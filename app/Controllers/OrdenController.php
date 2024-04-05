@@ -6,7 +6,7 @@ use App\Controllers\BaseController;
 use CodeIgniter\HTTP\ResponseInterface;
  
 use App\Models\DispositivoModel;
-use app\Models\ClienteModel;
+use App\Models\ClienteModel;
 use App\Models\OrdenModel;
 
 
@@ -16,6 +16,23 @@ class OrdenController extends BaseController
     {   
         $ordenModel = new OrdenModel();
         $ordenes = $ordenModel->findAll();
+        
+        //cargar el modelo del cliente 
+        $clienteModel = new ClienteModel();
+
+        //mostrar los nombres de los clientes asociados al dispositivo
+        foreach ($ordenes as &$orden) {
+            $dispositivoId = $orden['dispositivo_id']; 
+            $cliente = $clienteModel->join('dispositivos', 'clientes.id = dispositivos.cliente_id')->where('dispositivos.id', $dispositivoId)->first();
+
+            if($cliente) {
+                // Asignar el nombre del cliente a la orden
+                $orden['nombre_cliente'] = $cliente['nombres'] . ' ' . $cliente['apellidos'];
+            }
+            else {
+                $orden['nombre_cliente'] = 'El cliente no existe';
+            }
+        }
         
         $data['ordenes'] = $ordenes;
         return view('ordenes/listado', $data);
@@ -42,7 +59,7 @@ class OrdenController extends BaseController
             //si no se encuentra el cliente, deviolver un error
             return $this->response->setJSON([
                 'success' => false,
-                'message' => 'Cliente no encintrado'
+                'message' => 'Cliente no encontrado'
             ]);
         }
 

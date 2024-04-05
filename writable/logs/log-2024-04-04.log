@@ -1,0 +1,298 @@
+ERROR - 2024-04-04 13:32:19 --> mysqli_sql_exception: Unknown column 'tipoDispositivo' in 'field list' in C:\xampp\htdocs\computrack\system\Database\MySQLi\Connection.php:306
+Stack trace:
+#0 C:\xampp\htdocs\computrack\system\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `di...', 0)
+#1 C:\xampp\htdocs\computrack\system\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `di...')
+#2 C:\xampp\htdocs\computrack\system\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `di...')
+#3 C:\xampp\htdocs\computrack\system\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `di...', Array, false)
+#4 C:\xampp\htdocs\computrack\system\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\computrack\system\BaseModel.php(802): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\computrack\system\Model.php(744): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\computrack\app\Controllers\DispositivoController.php(78): CodeIgniter\Model->insert(Array)
+#8 C:\xampp\htdocs\computrack\system\CodeIgniter.php(941): App\Controllers\DispositivoController->registrarDispositivo()
+#9 C:\xampp\htdocs\computrack\system\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DispositivoController))
+#10 C:\xampp\htdocs\computrack\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\computrack\public\index.php(79): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2024-04-04 13:32:19 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tipoDispositivo' in 'field list'
+in SYSTEMPATH\Database\BaseConnection.php on line 647.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dispositivos` (`tipoDispositivo`, `marca`, `modelo`, `color`, `serial`, `diagnostico`, `cliente_id`) VALUES (:tipoDispositivo:, :marca:, :modelo:, :color:, :serial:, :diagnostico:, :cliente_id:)', [...], false)
+ 2 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 3 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 4 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 5 APPPATH\Controllers\DispositivoController.php(78): CodeIgniter\Model->insert([...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DispositivoController->registrarDispositivo()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DispositivoController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 13:32:19 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'tipoDispositivo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 311.
+ 1 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dispositivos` (`tipoDispositivo`, `marca`, `modelo`, `color`, `serial`, `diagnostico`, `cliente_id`) VALUES (\'portatil\', \'acer\', \'2021\', \'rojo\', \'54322423\', \'dañado\', \'2\')')
+ 2 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dispositivos` (`tipoDispositivo`, `marca`, `modelo`, `color`, `serial`, `diagnostico`, `cliente_id`) VALUES (\'portatil\', \'acer\', \'2021\', \'rojo\', \'54322423\', \'dañado\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dispositivos` (`tipoDispositivo`, `marca`, `modelo`, `color`, `serial`, `diagnostico`, `cliente_id`) VALUES (:tipoDispositivo:, :marca:, :modelo:, :color:, :serial:, :diagnostico:, :cliente_id:)', [...], false)
+ 4 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 5 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 6 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 7 APPPATH\Controllers\DispositivoController.php(78): CodeIgniter\Model->insert([...])
+ 8 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DispositivoController->registrarDispositivo()
+ 9 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DispositivoController))
+10 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 13:32:19 --> [Caused by] mysqli_sql_exception: Unknown column 'tipoDispositivo' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 306.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(306): mysqli->query('INSERT INTO `dispositivos` (`tipoDispositivo`, `marca`, `modelo`, `color`, `serial`, `diagnostico`, `cliente_id`) VALUES (\'portatil\', \'acer\', \'2021\', \'rojo\', \'54322423\', \'dañado\', \'2\')', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `dispositivos` (`tipoDispositivo`, `marca`, `modelo`, `color`, `serial`, `diagnostico`, `cliente_id`) VALUES (\'portatil\', \'acer\', \'2021\', \'rojo\', \'54322423\', \'dañado\', \'2\')')
+ 3 SYSTEMPATH\Database\BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `dispositivos` (`tipoDispositivo`, `marca`, `modelo`, `color`, `serial`, `diagnostico`, `cliente_id`) VALUES (\'portatil\', \'acer\', \'2021\', \'rojo\', \'54322423\', \'dañado\', \'2\')')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(2307): CodeIgniter\Database\BaseConnection->query('INSERT INTO `dispositivos` (`tipoDispositivo`, `marca`, `modelo`, `color`, `serial`, `diagnostico`, `cliente_id`) VALUES (:tipoDispositivo:, :marca:, :modelo:, :color:, :serial:, :diagnostico:, :cliente_id:)', [...], false)
+ 5 SYSTEMPATH\Model.php(326): CodeIgniter\Database\BaseBuilder->insert()
+ 6 SYSTEMPATH\BaseModel.php(802): CodeIgniter\Model->doInsert([...])
+ 7 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([...], true)
+ 8 APPPATH\Controllers\DispositivoController.php(78): CodeIgniter\Model->insert([...])
+ 9 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\DispositivoController->registrarDispositivo()
+10 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DispositivoController))
+11 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 14:08:41 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 14:37:29 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 14:37:30 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 14:38:03 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 14:38:04 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 14:38:04 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 14:38:58 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 14:40:10 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 15:30:37 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-04 15:46:33 --> REDIRECTED ROUTE at http://192.168.148.106/computrack/public/clientes
+CRITICAL - 2024-04-04 15:49:54 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-04 15:58:07 --> REDIRECTED ROUTE at http://192.168.148.106/computrack/public/facturas/crear
+CRITICAL - 2024-04-04 15:58:13 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 15:59:46 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:04:29 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:04:30 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:04:30 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:04:31 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:04:31 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 20.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:06:15 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:07:37 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:07:42 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:11:41 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:11:42 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:11:43 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:11:43 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:11:49 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-04 16:11:54 --> REDIRECTED ROUTE at http://192.168.148.106/computrack/public/facturas/crear
+CRITICAL - 2024-04-04 16:24:38 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-04 16:26:53 --> REDIRECTED ROUTE at http://192.168.148.106/computrack/public/facturas/crear
+CRITICAL - 2024-04-04 16:26:57 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-04 16:27:14 --> REDIRECTED ROUTE at http://192.168.148.106/computrack/public/facturas/crear
+CRITICAL - 2024-04-04 16:27:21 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:27:34 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-04 16:27:42 --> REDIRECTED ROUTE at http://192.168.148.106/computrack/public/facturas/crear
+CRITICAL - 2024-04-04 16:27:44 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:28:47 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 16:57:15 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 17:00:21 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 17:12:21 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 17:14:21 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 17:23:09 --> Error: Class "app\Models\ClienteModel" not found
+in APPPATH\Controllers\OrdenController.php on line 21.
+ 1 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 2 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 3 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-04 17:23:44 --> ErrorException: Undefined array key "fechaIngreso"
+in APPPATH\Views\ordenes\listado.php on line 32.
+ 1 APPPATH\Views\ordenes\listado.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fechaIngreso"', 'C:\\xampp\\htdocs\\computrack\\app\\Views\\ordenes\\listado.php', 32)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\computrack\\app\\Views\\ordenes\\listado.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('ordenes/listado', [], true)
+ 5 APPPATH\Controllers\OrdenController.php(38): view('ordenes/listado', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\OrdenController->listado()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\OrdenController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-04 17:26:33 --> REDIRECTED ROUTE at http://192.168.148.106/computrack/public/facturas/crear
+CRITICAL - 2024-04-04 17:26:33 --> ErrorException: Undefined array key "fechaIngreso"
+in APPPATH\Views\facturas\crear.php on line 19.
+ 1 APPPATH\Views\facturas\crear.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "fechaIngreso"', 'C:\\xampp\\htdocs\\computrack\\app\\Views\\facturas\\crear.php', 19)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\computrack\\app\\Views\\facturas\\crear.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('facturas/crear', [], true)
+ 5 APPPATH\Controllers\FacturaController.php(20): view('facturas/crear', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\FacturaController->crear()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\FacturaController))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
