@@ -16,7 +16,7 @@ class App extends BaseConfig
      *
      * E.g., http://example.com/
      */
-    public string $baseURL = 'http://10.132.54.122:80/computrack/public/'; // ruta base del proyecto, cambiar si se quere conectar a distitas redes
+    public string $baseURL = 'http://localhost/computrack/public/'; // ruta base del proyecto, cambiar si se quere conectar a distitas redes
 
     /**
      * Allowed Hostnames in the Site URL other than the hostname in the baseURL.

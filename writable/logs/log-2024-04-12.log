@@ -1,0 +1,4 @@
+INFO - 2024-04-12 01:15:53 --> REDIRECTED ROUTE at http://localhost/computrack/public/clientes
+INFO - 2024-04-12 01:19:46 --> REDIRECTED ROUTE at http://localhost/computrack/public/facturas/crear
+INFO - 2024-04-12 01:19:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-12 01:19:58 --> REDIRECTED ROUTE at http://localhost/computrack/public/facturas/crear
